@@ -2,35 +2,135 @@
 
 
 
-*{ 
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 10px;
+* {
+    margin: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+
 }
 
-header{
+body {
+    font-family: "Inter";
+    padding: 90px 20px 0;
+
+}
+
+.header {
+    height: 80px;
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px 20px 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    max-width: 1440px;
+    margin: 0 auto;
+
 }
-a{
+
+
+
+
+.logo {
+    width: 80px;
+    height: 80px;
+
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-menu-item {
+    font-size: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 50px;
+
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
     text-decoration: none;
-  
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-nav a{
     color: hsl(236, 13%, 42%);
 }
-nav a:hover{
-    color:   hsl(5, 85%, 63%);
+
+.nav-menu-link:hover {
+    color: hsl(5, 85%, 63%);
+    transition: 0.5s;
 }
-.menu{
+
+
+
+
+.menu {
     background: none;
     border: none;
     font-size: 30px;
     display: none;
 }
+
+@media (max-width: 500px) {
+
+
+    .header {
+        height: 60px;
+
+
+    }
+
+
+    .logo {
+        width: auto;
+        height: auto;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+
+        margin-right: 20px;
+        background-color: rgb(58, 17, 17);
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        overflow-y: auto;
+        left: 100%;
+         transition: left 0.5s;
+    }
+
+        .nav-menu-item {
+            line-height: 70px;
+            font-size: 26px;
+
+
+
+        }
+
+        .menu {
+
+            display: block;
+        }
+
+        .nav-menu_visible {
+            display: block;
+
+
+
+
+
+
+
+        }
