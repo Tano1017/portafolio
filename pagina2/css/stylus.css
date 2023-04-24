@@ -26,5 +26,11 @@ nav a{
     color: hsl(236, 13%, 42%);
 }
 nav a:hover{
-    color:  hsl(35, 77%, 62%);
+    color:   hsl(5, 85%, 63%);
+}
+.menu{
+    background: none;
+    border: none;
+    font-size: 30px;
+    display: none;
 }
