@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Handlee','Indie Flower', 'Alata',sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+
+  }
+  .column_left {
+    float: left;
+    width: 40%;
+    padding: 15px;
+  }
+    .column_right {
+      float: left;
+      width: 60%;
+      padding: 15px;
+      
+    
+  }
+  .image_t{
+
+    justify-content: flex-end;
+
+    width: 50%;
+    
+  }
+  .image{
+    float: left;
+    width: 100%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /* Footer */
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    display: flex;
+  }
+  .footer h2{
+    
+    padding: 0 0 0 20px ;
+    text-align: center; 
+    right: 45%;
+  }
+  .footer p{
+    padding: 10px;
+    text-align: right;
+    position: absolute;
+    left: 45%;
+    
+  }
+  
+  .git{
+    position: absolute;
+    left: 85%;
+    right: 10%;
+    margin-right: 12px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .neocities{
+    position: absolute;
+    left: 90%;
+    right: 5%;
+    margin-left: 12px;
+    width: 70px;
+    height: 70px;
+  }
