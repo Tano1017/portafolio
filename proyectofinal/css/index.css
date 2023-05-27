@@ -1,18 +1,4 @@
-@font-face {
-    font-family: "pacifico";
-    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: "montserrat";
-    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: "montserrat";
-    font-weight: bold;
-    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
-  }
+
   
   
   * {
@@ -506,15 +492,7 @@
 }
 
 
-.icon-cart{
-    width: 40px;
-    height: 40px;
-    stroke: #000;
-}
 
-.icon-cart:hover{
-    cursor: pointer;
-}
 
 img{
     max-width: 100%;
@@ -551,18 +529,7 @@ header{
     font-size: 12px;
 }
 
-.container-cart-products{
-    position: absolute;
-    top: 50px;
-    right: 0;
 
-    background-color: #fff;
-    width: 400px;
-    z-index: 1;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-    border-radius: 10px;
-    
-}
 
 .cart-product{
     display: flex;
@@ -639,6 +606,19 @@ header{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .container-items{
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px ;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+  }
+
 
 .item{
     border-radius: 10px;

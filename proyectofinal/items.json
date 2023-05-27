@@ -1,0 +1,33 @@
+[
+    {
+        "nombre": "Cuaderno Personalizado",
+        "img": "imagenes/articulo7.jpeg",
+        "precio": "$15.000"
+    },
+    {
+        "nombre": "Playera KaKashi ",
+        "img": "imagenes/articulo2.jpeg",
+        "precio": "$50.000"
+    },
+    {
+        "nombre": "Playera Personalizada",
+        "img": "imagenes/articulo3.jpeg",
+        "precio": "$50.000"
+    },
+    {
+        "nombre": "Pendientes demon slaider",
+        "img": "imagenes/articulo8.jpeg",
+        "precio": "$60.000"
+    },
+    {
+        "nombre": "Playera tokio goul",
+        "img": "imagenes/articulo6.jpeg",
+        "precio": "$50.000"
+    },
+    {
+        "nombre": "Cuaderno Personalizado",
+        "img": "imagenes/articulo7.jpeg",
+        "precio": "$15.000"
+    }
+    
+]
